@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Export-Package: ar_track_alvar_msgs;version="0.7.1";uses:="geometry_ms
+ gs,org.ros.internal.message,std_msgs"
+Bundle-Version: 0.7.1
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: ar_track_alvar_msgs
+Bnd-LastModified: 1582037122502
+Created-By: 1.7.0_60 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.ros.rosjava_messages.ar_track_alvar_msgs
+Import-Package: geometry_msgs;version="[1.10,2)",org.ros.internal.mess
+ age,std_msgs;version="[0.5,1)"
+
