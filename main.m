@@ -17,7 +17,7 @@ bag = rosbag(paths(4));
 
 
 %% tf #1 - world  -> ArUco
-tf_world_arucos = initializeAruco();                        % Nx7
+tf_world_arucos = initializeAruco();                        % Nx7 - [X, Y, Z, X, Y, Z, W]
 tf_world_arucos = quaternionToHomogeneous(tf_world_arucos); % 4x4xN
 
 

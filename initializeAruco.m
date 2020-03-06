@@ -1,6 +1,6 @@
 function [arucos] = initializeAruco()
     
-    arucos = zeros(12,6); % array with [X Y Z X Y Z W] (pose w/ quaternions)
+    arucos = zeros(12,7); % array with [X Y Z X Y Z W] (pose w/ quaternions)
     
     for i=1:size(arucos,1)
         % position
