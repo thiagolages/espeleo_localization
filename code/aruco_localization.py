@@ -63,8 +63,8 @@ def quaternionToHomogeneous(quat):
 if __name__ == '__main__':
 
 
-    paths = ["bags/200212_154801_corredor_lab_reta.bag","bags/200212_160813_corredor_lab_ziguezague.bag","bags/200212_165047_corredor_lab_reta_180.bag",
-    "bags/200212_171052_corredor_lab_reta_ziguezague.bag"]
+    paths = ["../bags/200212_154801_corredor_lab_reta.bag","../bags/200212_160813_corredor_lab_ziguezague.bag","../bags/200212_165047_corredor_lab_reta_180.bag",
+    "../bags/200212_171052_corredor_lab_reta_ziguezague.bag"]
 
     if (len(sys.argv) <= 1):
         print("Usage: python <filename.py> bagfile_number      (from 0 to 3)")
